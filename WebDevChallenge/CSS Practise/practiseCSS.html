@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<!-- All HTML5 files have this, BTW this is how you comment in a HTML file, in fact this is indication to the browser that this file is run only in browser that support HTML5 -->
+<html>
+	<head>
+		<title> This is where the title goes!
+		</title>
+		<meta charset="UTF-8">
+		<style>
+			h1 {
+				color: rgba(0,0,250,0.50);
+				font-family: monospace;
+				font-size: 28px;
+				padding-top: -50px;
+			}
+
+			img {
+				width: 250px;
+				height: 250px;
+			}
+
+			p.one {
+				color: blue;
+				font-style: cursive;
+				font-size: 18px;
+			}
+
+			#two {
+				color: red;
+				font-style: cursive;
+				font-size: 18px;
+			}
+
+			p.three {
+				color: green;
+				font-style: cursive;
+				font-size: 18px;
+			}
+
+			p {
+				color: brown;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="practiseCSS.css">
+	</head>
+
+	<body>	
+		<div>
+			<!-- This is my first comment -->
+			<!-- Let us see, inline CSS -->
+			<h1> This is my h1 after internal CSS under font family : monospace
+			</h1>
+			<h2> This is my h2 after external CSS under font family : cursive
+			</h2>
+			<h3 style="color: brown; size:20px; font-family: sans-serif;"> This is my h3 after inline CSS under font family : sans - serif </h3>
+			<p>This is my paragraph after external CSS under font family : cursive; without a class name</p>
+			<p class="one">This is a paragraph with class name one.</p>
+			<p id="two">This is a paragraph with id name two.</p>
+			<p class="three">This is a paragraph with class name three.</p>
+			The following is an unordered list and an ordered list given inside a borderless table.
+			<table cellpadding="25%">
+				<tr>
+					<td	width="50%">
+						<ol>
+							<li>This is the first element in the list</li>
+							<li>This is the second element in the list</li>
+							<li>This is the third element in the list</li>
+						</ol>
+					</td>
+					<td	width="50%">
+						<ul>
+							<li>This is the first element in the list</li>
+							<li>This is the second element in the list</li>
+							<li>This is the third element in the list</li>
+						</ul>
+					</td>
+				</tr>
+			</table>	
+		</div>
+		<div>
+			<table border="1" bgcolor="black" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					<td>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					<td>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					<td>
+				</tr>
+			</table>
+			
+		</div>
+		<div>
+			<form name="FirstForm" method="post" action="#">
+				<br>Please fill in the form below : <br><br>
+				<!-- Nothing happens if # is put in the action attribute-->
+				First Name : <input type="text" width="250" name="FirstName"><br><br>
+				Last Name : <input type="text" width="250" name="LastName"><br><br>
+				Email : <input type="Email" name="Email" width="250"><br><br>
+				Password : <input type="password" name="password" width="250"><br><br>
+				Select City :  
+				<select>
+					<option>California</option>
+					<option>New York</option>
+					<option>Tokyo</option>
+					<option>Singapore</option>
+				</select><br><br>
+				<input type="button" value="Submit" name="Button">
+			</form>
+		</div>
+	</body>
+</html>	
