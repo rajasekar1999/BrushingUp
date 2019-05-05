@@ -1,2 +1,3 @@
 # Essential Web Dev Challenge <br>
-* Day 1 - Introduction to HTML - !DOCTYPE html and its uses - meta tag - div tag - alt attribute inside the image tag - Inline CSS - Table method for Page Creation Stratergy - form tags - select tag - a tag - list tags - heading tags - Email input Type. **#EssentialWebDevChallenge**
+* Day 1 - Introduction to HTML - !DOCTYPE html and its uses - meta tag - div tag - alt attribute inside the image tag - Inline CSS - Table method for Page Creation Stratergy - form tags - select tag - a tag - list tags - heading tags - Email input Type. **#EssentialWebDevChallenge**<br>
+* Day 2 - Introduction to CSS - Inline CSS - Internal CSS - External CSS - font families and font styles - different ways of defining a color - altering the opacity of the color - link tag - Difference between Class and Id - CSS for Div tag - float and padding of Div. **#EssentialWebDevChallenge**
