@@ -1,0 +1,5 @@
+# 100 Days of ML Code Challenge<br>
+## Curriculum Suggested by Siraj Raval.
+* Day 1 - Reading through the Curriculum - Linear Algebra introduction - Vectors and its properties - Linear Transformation - shear rotation - Matrix Multiplication as Composition - Why Matrix Multiplication is Associative and Why ain't it is Commutative? **#100DaysOfMLCode**<br>
+* Day 2 - 3D Linear Transformation - Determinant; Factor by which Quantity of object given by vector, changes by transformer matrix - Inverse; 3D Square Matrix Determinant equals volume of the parallelepiped built out of those vectors Transformer to identity - Rank of a matrix; Number of Dimensions in Resultant Matrix - Non - Square Matrix Multiplication. **#100DaysOfMLCode**<br>
+* Day 3 - Dot Product, The product of length projection of one vector over the other and the length of the other vector - Duality of Dot Product is the Matrix Multiplication - Cross Product, the normal vector of the magnitude of area created by the pair of vectors to the same area, and its Duality again the Linear Transformation - Cramer's Rule of Cross Product. **#100DaysOfMLCode**
