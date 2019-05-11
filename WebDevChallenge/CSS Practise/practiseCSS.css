@@ -2,7 +2,17 @@
 /* CSS Document */
 
 h2 {
-	color: rgba(250,0,0,0.75);
+	color: red;
 	font-style: cursive;
 	font-size: 28px;
+}
+
+div.header{
+	background-color: #34A847;
+	height: auto;
+}
+
+div.footer{
+	background-color: black;
+	height: auto;
 }
