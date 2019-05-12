@@ -5,3 +5,4 @@
 * Day 3 - CSS selectors - box models - fixed, relative positioning - overflow -  hovering - list style type, position - nth child - text transform - first letter  - box shadow - white space - wrap - gradient - background repeat - div transform - animation. **#EssentialWebDevChallenge**
 * Day 4 - CSS: float - Inline block - display block - link - visited - hover - active - JS:script tag - alert - document - onClick - variable declaration - function declaration, definition - innerHTML.
 **#EssentialWebDevChallenge**
+* Day 5 - JS array manipulation - Classes and Properties - logging in console - history of Js - What does it take to become a full stack developer - Looping - Conditional statements - Branching - Switch Cases - Basically, the OOPS Basics with JavaScript. **#EssentialWebDevChallenge**
