@@ -1,0 +1,172 @@
+<!DOCTYPE html> 
+<!-- All HTML5 files have this, BTW this is how you comment in a HTML file, in fact this is indication to the browser that this file is run only in browser that support HTML5 -->
+<html>
+	<head>
+		<title> This is where the title goes!
+		</title>
+		<meta charset="UTF-8">
+		<style>
+			h1 {
+				color: #2E6848;
+				font-family: monospace;
+				font-size: 28px;
+				padding-top: -50px;
+			}
+
+			img {
+				width: 250px;
+				height: 250px;
+			}
+
+			p.one {
+				color: blue;
+				font-style: cursive;
+				font-size: 18px;
+			}
+
+			#two {
+				color: red;
+				font-style: cursive;
+				font-size: 18px;
+			}
+
+			p.three {
+				color: green;
+				font-style: cursive;
+				font-size: 18px;
+			}
+
+			p {
+				color: brown;
+			}
+
+			body {
+				background-color: #ccffee;
+				font-size: 12px;
+			}
+
+		</style>
+		<link rel="stylesheet" type="text/css" href="practiseJS.css">
+	</head>
+
+	<body>
+	<center><b><font face="Verdana">	
+		<div class="header"><center><h1>Here goes the header!</center></h1></div>
+		<div>
+			<!-- This is my first comment -->
+			<!-- Let us see, inline CSS -->
+			<h1> This is my h1 after internal CSS under font family : monospace
+			</h1>
+			<h2> This is my h2 after external CSS under font family : cursive
+			</h2>
+			<h3 style="color: brown; size:20px; font-family: sans-serif;"> This is my h3 after inline CSS under font family : sans - serif </h3>
+			<p>This is my paragraph after external CSS under font family : cursive; without a class name</p>
+			<p class="one">This is a paragraph with class name one.</p>
+			<p id="two">This is a paragraph with id name two.</p>
+			<p class="three">This is a paragraph with class name three.</p>
+			The following is an unordered list and an ordered list given inside a borderless table.
+			<table cellpadding="25%">
+				<tr>
+					<td	width="20%">
+						<ol>
+							<li>This is the first element</li>
+							<li>This is the second element </li>
+							<li>This is the third element </li>
+						</ol>
+					</td>
+					<td	width="20%">
+						<ul>
+							<li>This is the first elementt</li>
+							<li>This is the second element </li>
+							<li>This is the third element </li>
+						</ul>
+					</td>
+					<td	width="20%">
+						<ol>
+							<li>This is the first element</li>
+							<li>This is the second element </li>
+							<li>This is the third element </li>
+						</ol>
+					</td>
+					<td	width="20%">
+						<ul>
+							<li>This is the first elementt</li>
+							<li>This is the second element </li>
+							<li>This is the third element </li>
+						</ul>
+					</td>
+					<td	width="20%">
+						<ol>
+							<li>This is the first element</li>
+							<li>This is the second element </li>
+							<li>This is the third element </li>
+						</ol>
+					</td>
+				</tr>
+			</table>	
+		</div>
+		<div>
+			<table border="1" bgcolor="black" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					</td>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					</td>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					</td>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					</td>
+					<td>
+					<a href="https://google.com">
+						<img src="something.jpg">
+					</a>
+					</td>									
+				</tr>
+			</table>
+			
+		</div>
+		<div>
+			<form name="FirstForm" method="post" action="#">
+				<br>Please fill in the form below : <br><br>
+				<!-- Nothing happens if # is put in the action attribute-->
+				First Name : <input type="text" width="250" name="FirstName"><br><br>
+				Last Name : <input type="text" width="250" name="LastName"><br><br>
+				Email : <input type="Email" name="Email" width="250"><br><br>
+				Password : <input type="password" name="password" width="250"><br><br>
+				Select City :  
+				<select>
+					<option>California</option>
+					<option>New York</option>
+					<option>Tokyo</option>
+					<option>Singapore</option>
+					<option>New Delhi</option>
+					<option>New York</optionNew >
+					<option>New Jersey</option>
+				</select><br><br>
+				Type some text here : <input type="text" width="250" name="Text" id="Text"><br><br>
+				<input type="button" value="Good to Go">
+				<button OnClick="alert('Glad you gave in, Congrats')">Give in</button>
+				<button OnClick="func()">Give on in</button>
+			</form></center></b></font>
+		</div>
+		<div class="footer"><center><h1>Here goes the footer!</center></h1></div>
+		<script type="text/javascript">
+			alert('Hello World!');
+			function func() {
+				alert(document.getElementById("Text").value);
+			}
+		</script>
+	</body>
+</html>	
