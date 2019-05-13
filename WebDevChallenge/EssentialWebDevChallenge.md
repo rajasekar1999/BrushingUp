@@ -6,3 +6,4 @@
 * Day 4 - CSS: float - Inline block - display block - link - visited - hover - active - JS:script tag - alert - document - onClick - variable declaration - function declaration, definition - innerHTML.
 **#EssentialWebDevChallenge**
 * Day 5 - JS array manipulation - Classes and Properties - logging in console - history of Js - What does it take to become a full stack developer - Looping - Conditional statements - Branching - Switch Cases - Basically, the OOPS Basics with JavaScript. **#EssentialWebDevChallenge**
+* Day 6 - Inputting Values - Operators - Arrays : push, pop, shift, unshift, splice - Math function: random and float - Color guessing Game using them - Intervals and Timeouts - Manipulating Time Functions. **#EssentialWebDevChallenge**
