@@ -7,3 +7,4 @@
 **#EssentialWebDevChallenge**
 * Day 5 - JS array manipulation - Classes and Properties - logging in console - history of Js - What does it take to become a full stack developer - Looping - Conditional statements - Branching - Switch Cases - Basically, the OOPS Basics with JavaScript. **#EssentialWebDevChallenge**
 * Day 6 - Inputting Values - Operators - Arrays : push, pop, shift, unshift, splice - Math function: random and float - Color guessing Game using them - Intervals and Timeouts - Manipulating Time Functions. **#EssentialWebDevChallenge**
+* Day 7 - 45% completion on the Unorthodox Inc.'s First Mini Project under the label "Horsing around with Web Dev Skills and Tools". Intuition Gained: It takes a hell lot of time and workload to design a decorative web app using the div-float technique. **#EssentialWebDevChallenge**
