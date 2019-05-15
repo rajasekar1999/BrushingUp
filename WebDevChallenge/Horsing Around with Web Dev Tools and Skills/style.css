@@ -9,11 +9,13 @@ div.header {
 .footer {
     height: 50px;
     background-color:lightgreen;
+    padding-bottom: 10px;
 }
 
 .between {
     height: 550px;
     background-color:lemonchiffon;
+    padding-bottom: 68px;
 }
 
 .calcborder {
@@ -21,6 +23,7 @@ div.header {
     border-style: solid;
     height : 500px;
     width : 600px;
+    margin-top:40px;
 }
 
 .display-screen {
@@ -74,21 +77,23 @@ div.header {
     border-style: solid;
     height: 75px;
     width: 100px;
+    text-align: center;
 }
 
 #number1 {
     float:left;
     margin-left:20px;
-    margin-top:-50px;
+    margin-top:-30px;
 }
 
-/* #number2 {
-    
-} */
+#number2 {
+    margin-top:-30px;
+    margin-bottom:40px;
+} 
 
 #number3 {
     float:right;
-    margin-top:-130px;
+    margin-top:-119px;
     margin-right:20px;
     margin-bottom:40px;
 }
@@ -99,13 +104,14 @@ div.header {
     margin-top:-10px;
 }
 
-/* #number5 {
-    
-} */
+#number5 {
+    margin-top: -10px;
+    margin-bottom:40px;
+}
 
 #number6 {
     float:right;
-    margin-top:-100px;
+    margin-top:-120px;
     margin-right:20px;
     margin-bottom:40px;
 }
@@ -113,16 +119,31 @@ div.header {
 #number7 {
     float:left;
     margin-left:20px;
-    margin-top:20px;
+    margin-top:0px;
 }
 
-/* #number8 {
+#number8 {
     
-} */
+} 
 
 #number9 {
     float:right;
-    margin-top:-70px;
+    margin-top:-80px;
     margin-right:20px;
     margin-bottom:40px;
+}
+
+.operatorpad div {
+    border: 2px;
+    border-style: solid;
+    height: 50px;
+    width: 100px;
+    margin-top:10px;
+    margin-right: 10px;
+    margin-left:-25px;
+    padding-right: 5px;
+}
+
+#operator+ {
+    margin-top:10px;
 }
