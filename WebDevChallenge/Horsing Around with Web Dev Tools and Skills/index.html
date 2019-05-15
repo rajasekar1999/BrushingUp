@@ -12,27 +12,31 @@
             <div class="between" id="between">
                 <br>
                 <div class = "calcborder">
+                    <font size="5px" face="Tahoma">
                     <div class = "display-screen" id = "display"></div>
-                    <div class = "delete-button" id = "delete"></div>
+                    <div class = "delete-button" id = "delete"><font size="4px">delete</font></div>
                     <div class = "numberpad" id = "numberpad">
-                        <div class="number-1" value="1" id="number1"></div>
-                        <div class="number-2" value="2" id="number2"></div>
-                        <div class="number-3" value="3" id="number3"></div>
-                        <div class="number-4" value="4" id="number4"></div>
-                        <div class="number-5" value="5" id="number5"></div>
-                        <div class="number-6" value="6" id="number6"></div>
-                        <div class="number-7" value="7" id="number7"></div>
-                        <div class="number-8" value="8" id="number8"></div>
-                        <div class="number-9" value="9" id="number9"></div>
+                        <div class="number-1" value="1" id="number1" onclick="numsel()"><br>1</div>
+                        <div class="number-2" value="2" id="number2" onclick="numsel()"><br>2</div>
+                        <div class="number-3" value="3" id="number3" onclick="numsel()"><br>3</div>
+                        <div class="number-4" value="4" id="number4" onclick="numsel()"><br>4</div>
+                        <div class="number-5" value="5" id="number5" onclick="numsel()"><br>5</div>
+                        <div class="number-6" value="6" id="number6" onclick="numsel()"><br>6</div>
+                        <div class="number-7" value="7" id="number7" onclick="numsel()"><br>7</div>
+                        <div class="number-8" value="8" id="number8" onclick="numsel()"><br>8</div>
+                        <div class="number-9" value="9" id="number9" onclick="numsel()"><br>9</div>
                     </div>
                     <div class = "operatorpad" id = "operatorpad">
-                        <div class="operator-+" value="1" id="operator+"></div>
-                        <div class="operator--" value="2" id="operator-"></div>
-                        <div class="operator-*" value="3" id="operator*"></div>
-                        <div class="operator-/" value="4" id="operator/"></div>
-                        <div class="operator-=" value="5" id="operator="></div>
-                        <div class="number-0" value="0" id="number0"></div>
+                        <font size="4px">
+                        <div class="operator-+" value="1" id="operator+" onclick="opsel()"><br>+</div>
+                        <div class="operator--" value="2" id="operator-" onclick="opsel()"><br>-</div>
+                        <div class="operator-*" value="3" id="operator*" onclick="opsel()"><br>*</div>
+                        <div class="operator-/" value="4" id="operator/" onclick="opsel()"><br>/</div>
+                        <div class="operator-=" value="5" id="operator=" onclick="opsel()"><br>=</div>
+                        <div class="number-0" value="0" id="number0" onclick="numsel()"><br>0</div>
+                    </font>
                     </div>
+                </font>
                 </div>
             </div>
             <div class="footer" id="footer"><br>Handcrafted by Unorthodox Inc</div>
