@@ -7,3 +7,4 @@
 * Day 5 - The Paradox of Derivate: why velocity is a derivative of displacement function - Graphical insight on use of limits- graphical derivation of the standard formula for integration and differentiation - abstract functions and their real-life applications. **#100DaysOfMLCode**
 * Day 6 - Graphical understanding of Product and Chain rules of Differentiation and Integration and of the exponential function: when the rate of change of one is proportional to oneself -  graphical derivation of Euler constants, Natural logarithmic constants. **#100DaysOfMLCode**
 * Day 7 - Implicit Calculus - Implicit functions and their curves - Graphical intuition on differentiating a polynomial equation - Limits Theory - L'Hopital Rule - Integration and Anti-derivatives - Area under the curves meaning and intuition. **#100DaysOfMLCode**
+* Day 8 - Introduction into Python for Data Science - Decision Tree model from Scikit. **#100DaysOfMLCode**
