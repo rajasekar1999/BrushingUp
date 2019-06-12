@@ -8,3 +8,4 @@
 * Day 6 - Graphical understanding of Product and Chain rules of Differentiation and Integration and of the exponential function: when the rate of change of one is proportional to oneself -  graphical derivation of Euler constants, Natural logarithmic constants. **#100DaysOfMLCode**
 * Day 7 - Implicit Calculus - Implicit functions and their curves - Graphical intuition on differentiating a polynomial equation - Limits Theory - L'Hopital Rule - Integration and Anti-derivatives - Area under the curves meaning and intuition. **#100DaysOfMLCode**
 * Day 8 - Introduction into Python for Data Science - Decision Tree model from Scikit. **#100DaysOfMLCode**
+* Day 9 - Twitter sentiment analysis - Dependencies installed - textblob and tweepy - Tokenization - Textblobbing to find the polarity of the tweet - Tweets retrieved from Twitter API. **#100DaysOfMLCode**
